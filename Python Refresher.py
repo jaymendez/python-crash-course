@@ -85,7 +85,7 @@ class Car:
         self.model = model
     
     def get_age(self):
-        return self.year
+        return 2019 - self.year
 
 car = Car(2019, "honda","civic")
 print(car.get_age())
